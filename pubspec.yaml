@@ -1,0 +1,25 @@
+name: quiz_124220032_nathasya
+description: A Flutter project for Bank Sampah application
+
+publish_to: 'none' # Remove this line if you plan to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0" # Adjust this range based on your Dart SDK version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.0.11  # Ensure you have this line for path_provider
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/header.png    # Ensure this path is correct and points to your asset
+    - assets/Paragraf.txt  # Ensure this path is correct for your text file      
+uses-material-design: true
+
